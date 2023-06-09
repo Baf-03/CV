@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Franklin Gothic Medium";
+    
+}
+.background{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+}
+.main{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 50%;
+    display: grid;
+    background-color: blue;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 33% 67%;
+   
+
+
+}
+#leftside{
+    
+    background-color: rgb(53, 72, 87);
+    
+    
+}
+#rightside{
+    background-color: rgb(228, 224, 225);
+   
+}
+
+#name_portion{
+    
+    top:25%;
+    left: 50%;  
+    transform: translate(-50%, -50%); 
+    position: absolute;
+    background-color: rgb(100, 153, 163);
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    font-weight: bold;
+    color: white;
+}
+img{
+    
+    border-radius: 50%;
+    width: 90%;
+    height: 20vh;
+    box-shadow: 0 0 10px 10px rgb(255, 253, 253);
+}
+#name{
+    padding-left: 15px;
+    font-size: 30px;
+    margin-top:4vh;
+    margin-bottom: 1.5vh;
+}
+#field{
+    padding-left: 15px;
+    font-size: 15px; 
+}
+
+
+
+.no-bullets {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+a{
+    text-decoration: none;
+}
+li{
+    color: white;
+    margin-bottom: 3px;
+}
+i{
+    width: 7%;
+}
+#bottom_of_absolute span{
+   padding-left: 5px;
+}
+.border{
+    border-radius: 2px;
+    border: 1px solid white;
+    margin-top: 15px;
+    width: 94%;
+}
+.skills{
+    padding: 0;
+    margin: 10%;
+}
+/* -------------------------------RIGHTSIDE-------------------------------------------- */
+body{
+    font-size: 15px;
+}
+#bottom_of_absolute{
+    margin-top: 30vh;
+    margin-left: 15px;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+kuchbeh{
+    padding-left: 10px;
+    font-size: 10px;
+}
+b{
+    color: darkblue;
+}
+.border_for_right_side{
+    border-radius: 2px;
+    border: 1px solid black;
+    margin-top: -17px;
+    width: 17%;
+    margin-bottom: 5px;
+}
+.rightside{
+    color: black;
+}
+
+@media (max-width: 1200px){
+    
+    .background{
+        width: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        overflow-x: hidden;
+    
+    }
+    .main{
+        margin-top: 0%;
+        margin-bottom: 0%;
+        width: 100%;
+        display: grid;
+        background-color: blue;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 40% 60%;
+       
+    
+    
+    }
+   
+#name_portion{
+    
+    top:15%;
+    left: 50%;  
+    transform: translate(-50%, -50%); 
+    position: absolute;
+    background-color: rgb(100, 153, 163);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: bold;
+    color: white;
+}
+img{
+    border-radius: 50%;
+    width: 90%;
+    height: 15vh;
+    box-shadow: 0 0 10px 10px rgb(255, 253, 253);
+}
+#name{
+    font-size: 1.5rem;
+    margin-top:7vh;
+ 
+}
+
+#field{
+    
+    font-size: 1rem; 
+    padding-bottom: 10px;
+}
+
+#rightside{
+    width: 100%;
+    background-color: rgb(228, 224, 225);
+   
+}
+.rightside{
+    color: black;
+    padding: 0%;
+    margin: 0%;
+    margin-left: 5px;
+}
+
+
+
+
+}
