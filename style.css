@@ -72,7 +72,9 @@ img{
     padding: 0;
     margin: 0;
   }
+
 a{
+    color: black!important;
     text-decoration: none;
 }
 li{
